@@ -1,4 +1,5 @@
 package aulasjava;
+// OPERADORE
 
 public class TiposPrimitivos02 {
     public static void main(String[] args){
@@ -32,5 +33,36 @@ public class TiposPrimitivos02 {
 
 
         System.out.println(exemploString);
+    }
+}
+
+class OperadoresRelacionais{
+    public static void main(String[]ergs){
+
+    boolean isDezMaiorQueVinte = 10 > 20 ;
+
+    boolean isDezMenorQueVinte = 10 < 20 ;
+
+    boolean isDezigualVinte = 10 == 20 ;
+
+    boolean isDezDiferenteVinte = 10 != 20 ;
+
+    System.out.println(isDezMaiorQueVinte);
+    System.out.println(isDezMenorQueVinte);
+    System.out.println(isDezigualVinte);
+    System.out.println(isDezDiferenteVinte);
+}
+
+}
+// VERIFICANDO DADOS PARA ADERIR CARD (idade = 30+) e (Salario < 4000)
+class OperadoresLogicos{
+    public static void main(String[] ergs){
+        int idade = 33;
+        float salario = 33500;
+
+        boolean verificandoDados = idade >= 30 && salario <= 4000;
+        boolean verificandoDados2 = idade >= 30 && salario <= 4000;
+        System.out.println(verificandoDados);
+
     }
 }
