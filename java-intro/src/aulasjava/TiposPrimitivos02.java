@@ -55,14 +55,15 @@ class OperadoresRelacionais{
 
 }
 // VERIFICANDO DADOS PARA ADERIR CARD (idade = 30+) e (Salario < 4000)
-class OperadoresLogicos{
-    public static void main(String[] ergs){
+class OperadoresLogicos {
+    public static void main(String[] ergs) {
         int idade = 33;
         float salario = 33500;
 
         boolean verificandoDados = idade >= 30 && salario <= 4000;
         boolean verificandoDados2 = idade >= 30 && salario <= 4000;
         System.out.println(verificandoDados);
+        System.out.println(verificandoDados2);
 
     }
 }
