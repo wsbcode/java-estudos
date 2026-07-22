@@ -1,4 +1,4 @@
-package aulasjava;
+package logica;
 // VERIFICANDO RESPOSTA COM OPERADOR TERNARIO
 public class Operadorternario {
     public static void main(String[]args){

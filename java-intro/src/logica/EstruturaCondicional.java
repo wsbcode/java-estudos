@@ -1,4 +1,4 @@
-package aulasjava;
+package logica;
 // VERIFICANDO POSSIBILIDADE DE HABILITAÇÃO
 public class EstruturaCondicional {
     public static void main (String[]args){

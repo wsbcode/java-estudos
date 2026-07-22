@@ -1,4 +1,4 @@
-package aulasjava;
+package logica;
 // OPERADORE
 
 public class TiposPrimitivos02 {
