@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.logica;
 // ATIVIDADE PARA VERIFICAR DESCONTO DE ACORDO COM SALARIO RECEBIDO
 
 public class Atividade02 {

@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.logica;
 // DESCOBRIR EM QUATAS VENZES O VALOR DO CARRO PODE SER PARCELADO
 // CINDIÇÃO VALOR DAS PARCELAS >= 1000
 

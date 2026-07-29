@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.logica;
 import java.time.LocalDate;
 /*
 PRATICA

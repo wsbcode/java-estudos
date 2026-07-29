@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.logica;
 // VERIFICANDO SE É ULIL OU FINAL DE SEMANA
 
 public class Atividade03 {
