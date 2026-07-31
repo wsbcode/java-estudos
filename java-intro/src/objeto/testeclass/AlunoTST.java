@@ -2,7 +2,7 @@ package objeto.testeclass;
 
 import objeto.poo01.Estudante;
 
-public class AlunoTXT {
+public class AlunoTST {
     public static void main(String[] args) {
         Estudante aluno01 = new Estudante();
         aluno01.nome = "William";
