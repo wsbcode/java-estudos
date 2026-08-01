@@ -18,6 +18,17 @@ public class CalculadoraTST {
         System.out.println("Multiplicação dos números: " + multiplicacao);
         System.out.println("Divisão dos números: " + divisao);
 
+        // // Variáveis ORIGINAIS criadas no main
+        int num1 = 100;
+        int num2 = 200;
+
+        // // Enviamos uma XEROX (cópia de 100 e 200) para o método
+        calculadora.alterarDoisnumeros(num1, num2);
+
+        // // As variáveis ORIGINAIS do main continuam intactas (sem alteração)!
+        System.out.println("main: " + num1); // // Vai imprimir o original: 100
+        System.out.println("main: " + num2); // // Vai imprimir o original: 200
+
 
     }
 }
