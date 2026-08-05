@@ -35,4 +35,27 @@ public class Calculadora {
 
         // // Quando a execução chega aqui, a função acaba e as CÓPIAS são jogadas no lixo!
     }
+
+    public void somarArrayPadrao(int[] numeros) {
+        // // Cria uma variável para acumular a soma, iniciando zerada
+        int resultadoSoma = 0;
+
+        // // Para cada 'numero' (int i) que estiver dentro do grupo 'numeros':
+        for (int i : numeros) {
+            // // Pega o valor atual de 'i' e adiciona ao acumulador 'resultadoSoma'
+            resultadoSoma += i;
+        }
+        // // Imprime o valor final da soma no console
+        System.out.println("Soma: " + resultadoSoma);
+
+    }
+
+    public void somaArrayVarArgs(int... numerosVarArgs) {
+// // Permite que os parâmetros sejam passados diretamente na chamada do método no main
+        int resultadoSoma = 0;
+        for (int i : numerosVarArgs) {
+            resultadoSoma += i;
+        }
+        System.out.println("Soma: " + resultadoSoma);
+    }
 }

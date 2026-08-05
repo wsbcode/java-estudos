@@ -6,7 +6,8 @@ public class Estudante {
     public int idade ;
     public char sexo ;
 
-
+// Método já dentro da classe
+// Porem em casos espécifico criar um pacote separado
     public void imprime(){
         System.out.println("__________________");
 
