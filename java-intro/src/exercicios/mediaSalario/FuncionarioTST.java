@@ -6,9 +6,9 @@ public class FuncionarioTST {
         Funcionario funcionario = new Funcionario();
 
         // // Define os valores dos atributos
-        funcionario.nome = "Joao";
-        funcionario.idade = 18;
-        funcionario.salarios = new double[] {3000, 4000, 2000};
+        funcionario.setNome("Joao");
+        funcionario.setIdade(18);
+        funcionario.setSalarios(new double[]{3000, 4000, 2000});
 
         // // Executa a impressão e o cálculo da média
         funcionario.imprimirFuncionario();
