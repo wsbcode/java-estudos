@@ -21,11 +21,13 @@ public class Construtores {
         this(nome, idade, sexo);
         this.dataNascimento = dataNascimento;
     }
+
     // // Construtor Vazio: define uma regra padrão para QUALQUER usuário
     public Construtores() {
         this.dataCriacao = "10/08/2026"; // // Preenche a data atual automaticamente
         System.out.println("LOG: Novo usuário instanciado no sistema.");
     }
+
     // // Método para exibir os dados no console
     public void imprimir() {
         System.out.println(nome);
