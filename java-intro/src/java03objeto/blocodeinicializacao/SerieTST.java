@@ -15,7 +15,7 @@ public class SerieTST {
         // // Loop 'for-each' para percorrer o array de episódios preenchido no bloco
         for (int episodio : serie.getEpisodios()) {
             // // Imprime o número do episódio acompanhado da letra "x" (ex: 1x, 2x, 3x...)
-            System.out.println(episodio + "-ep");
+            System.out.println(episodio + "- ep");
         }
     }
 }
