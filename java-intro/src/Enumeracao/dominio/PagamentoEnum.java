@@ -5,8 +5,6 @@ public enum PagamentoEnum {
     CREDITO(2);
 
     private final int ID;
-
-
     PagamentoEnum(int identificadoro) {
         this.ID = identificadoro;
 

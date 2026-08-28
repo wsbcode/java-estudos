@@ -1,5 +1,6 @@
 package Enumeracao.test;
 
+import Enumeracao.dominio.PagamentoDesconto;
 import Enumeracao.dominio.PagamentoEnum;
 import Enumeracao.dominio.TipoDePagamento;
 
@@ -14,6 +15,9 @@ public class TipoDePagamentoTST {
 
         System.out.println(tipoDePagamento2.toString());
         System.out.println(tipoDePagamento3.toString());
+
+        System.out.println(PagamentoDesconto.CREDITO_DESCONTO.calcularDesconto(100));
+        System.out.println(PagamentoDesconto.DEBITO_DESCONTO.calcularDesconto(100));
 
 
     }
