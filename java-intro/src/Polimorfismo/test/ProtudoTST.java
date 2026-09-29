@@ -9,7 +9,7 @@ public class ProtudoTST {
     public static void main(String[] args) {
         Computador computador = new Computador("AMD Raze", 10000);
         Tomate tomate = new Tomate("Tomate Redondo", 10);
-        Televisao televisao = new Televisao("Televisao LG", 1500 );
+        Televisao televisao = new Televisao("Televisao LG 60\" ", 1500 );
 
         CalculadoraImposto.calcularImposto(computador);
         System.out.println("________________________________");
