@@ -1,14 +1,14 @@
 package aOrientacaoObjetos.classes.test;
 
 // Importa a classe Pessoa para podermos usá-la aqui no teste
-import aOrientacaoObjetos.classes.domin.Pessoa;
+import aOrientacaoObjetos.classes.domin.Estudante;
 
-public class PessoaTST01 {
+public class EstudanteTST01 {
     // Método principal onde o programa começa a ser executado
     public static void main(String[] args) {
 
         // Cria um novo objeto do tipo Pessoa na memória
-        Pessoa pessoa = new Pessoa();
+        Estudante pessoa = new Estudante();
 
         // Define o valor do nome da pessoa
         pessoa.nome = "William";

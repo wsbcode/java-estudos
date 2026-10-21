@@ -16,7 +16,7 @@ public class Calculadora {
     }
 
     public double DivisaoDoisValores(int num1, int num2) {
-        if (num2 == 0 ) {
+        if (num2 == 0) {
             return 0;
         } else {
             return num1 / num2;
@@ -24,9 +24,23 @@ public class Calculadora {
     }
 
     public void AlterarDoisValores(int num1, int num2) {
-
     }
 
+    public void somarArray(int[] numeros) {
+        int soma = 0;
+        for (int numero : numeros) {
+            soma = soma + numero;
+        }
+        System.out.println("Resultado da soma: " + soma);
+    }
+
+    public void somaVarArgs(int... numeros) {
+        int soma = 0;
+        for (int numero : numeros) {
+            soma = soma + numero;
+        }
+        System.out.println("Resultado da soma: " + soma);
+    }
 
 }
 

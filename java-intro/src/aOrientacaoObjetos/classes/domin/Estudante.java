@@ -1,7 +1,7 @@
 package aOrientacaoObjetos.classes.domin;
 
 // Define a classe Pessoa (molde para criar objetos do tipo pessoa)
-public class Pessoa {
+public class Estudante {
 
     // Atributo para guardar o nome da pessoa (texto)
     public String nome;
